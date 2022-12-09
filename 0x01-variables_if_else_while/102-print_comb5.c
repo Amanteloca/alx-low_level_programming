@@ -1,50 +1,48 @@
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+
 /**
- * main - Entry point
+ * main - Prints numbers between 00 to 99.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int p = 48, q = 48, y = 48, x = 49;
+int i, e, g, h, op1, op2;
 
-	while (p < 58)
+i = e = g = h = 48;
+while (h < 58)
+{
+	g = 48;
+	while (g < 58)
 	{
-		while (q < 58)
+		e = 48;
+		while (e < 58)
 		{
-			while (y < 58)
+			i = 48;
+			while (i < 58)
 			{
-				while (x < 58)
+				op1 = (h * 10) + g;
+				op2 = (e * 10) + i;
+				if (op1 < op2)
 				{
-					putchar(p);
-					putchar(q);
+					putchar(h);
+					putchar(g);
 					putchar(' ');
-					putchar(y);
-					putchar(x);
-					if (!(p == 57 &&
-						q == 56 &&
-						y == 57 &&
-						x == 57))
-					{
-						putchar(',');
-						putchar(' ');
-					}
-					x++;
+					putchar(e);
+					putchar(i);
+					if (h == 57 && g == 56 && e == 57 && i == 57)
+						break;
+					putchar(',');
+					putchar(' ');
 				}
-				y++;
-				x = 48;
+				i++;
 			}
-			q++;
-			q = p;
-			x = q + 1;
+			e++;
 		}
-		p++;
-		q = 48;
-		y = p;
-		x = q+ 1;
+		g++;
 	}
-	putchar('\n');
-	return (0);
+	h++;
+}
+putchar('\n');
+return (0);
 }
