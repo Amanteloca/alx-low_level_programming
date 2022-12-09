@@ -6,10 +6,11 @@ int main ()
 
 	char pha;
 
-	for (pha = 'a', cha <= z , cha++)
+	for (pha = 'a', pha <= 'z' , pha++)
 	{ 
 	putchar(pha);
 	}	
-
+        
+	putchar(\n);
 	return 0;
 }
