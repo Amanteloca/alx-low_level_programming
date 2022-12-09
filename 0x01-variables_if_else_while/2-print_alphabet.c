@@ -11,6 +11,6 @@ int main ()
 	putchar(pha);
 	}	
         
-	putchar(\n);
+	putchar('\n');
 	return 0;
 }
