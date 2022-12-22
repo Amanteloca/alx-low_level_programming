@@ -1,20 +1,3 @@
-
-Sottie1
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x06-pointers_arrays_strings/1-strncat.c
-@Sottie1
-Sottie1 task 1
- 1 contributor
-27 lines (25 sloc)  448 Bytes
 #include "main.h"
 /**
  * _strncat - concatenates two strings,
