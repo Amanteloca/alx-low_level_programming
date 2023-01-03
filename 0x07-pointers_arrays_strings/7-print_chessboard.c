@@ -1,20 +1,3 @@
-
-Sottie1
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x07-pointers_arrays_strings/7-print_chessboard.c
-@Sottie1
-Sottie1 task 7
- 1 contributor
-26 lines (23 sloc)  370 Bytes
 #include "main.h"
 
 /**
