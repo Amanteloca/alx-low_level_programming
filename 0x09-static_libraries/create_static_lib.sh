@@ -1,5 +1,5 @@
 #!/bin/bash
-gcc -wall -wextra -werror -padantic -c *.c
+gcc -Wall -Wextra -Werror -Padantic -c *.c
 ar  rc  liball.a *.o
 
 
